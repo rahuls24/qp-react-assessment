@@ -1,0 +1,29 @@
+.todo-item-card {
+	max-width: 350px;
+	display: grid;
+	grid-template-columns: 30px 1fr;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease;
+}
+
+.todo-item-card:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.todo-item-checkbox {
+	margin-right: 10px;
+	transform: scale(1.2);
+}
+
+.todo-item-text {
+	padding-right: 10px;
+	max-height: 250px;
+	overflow-y: auto;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+}
