@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# qp-react-assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a React application built for assessment purposes. It leverages modern React features and libraries for efficient development and enhanced user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Run `npm install` to install the necessary dependencies.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Available Scripts
 
-- Configure the top-level `parserOptions` property like this:
+In the project directory, you can run the following scripts:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### `npm run dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Runs the app in development mode using Vite.
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder. It bundles and optimizes the app for the best performance.
+
+### `npm test`
+
+Launches the test runner to execute unit tests and generate coverage reports.
+
+### `npm run lint`
+
+Runs ESLint to analyze and enforce coding standards.
+
+### `npm run preview`
+
+Previews the built app using Vite.
